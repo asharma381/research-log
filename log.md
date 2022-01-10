@@ -2,7 +2,7 @@
 ---
 
 ## Week 2 (1/10-1/16)
-####**Weekly Goals**:
+#### **Weekly Goals**:
 * Demonstrate Question Drop (Launch M-Turk)
   - [ ] Finalize Q Drop  Process
   - [ ] Add dummy pairs to remove false submissions
