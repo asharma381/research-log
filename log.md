@@ -1,6 +1,18 @@
 # Aditya's Research Log :notebook: (Winter 2022)
 ---
 
+## Week 2 (1/10-1/16)
+####**Weekly Goals**:
+* Demonstrate Question Drop (Launch M-Turk)
+  - [ ] Finalize Q Drop  Process
+  - [ ] Add dummy pairs to remove false submissions
+* Readings
+  - [ ] Read HybridQA 
+  - [ ] Talk with Wenhu about validation QA pairs
+  - [ ] Google TidyQA 
+  - [ ] NLP Crowdsourcing Beyond Annotation
+  - [ ] [DPR](https://www.google.com/url?q=https://github.com/facebookresearch/DPR&sa=D&source=docs&ust=1641802525473589&usg=AOvVaw13HuXCX_jEa7r_tT4fZrA4) and [FiD](https://github.com/facebookresearch/FiD)
+
 ## Week 1 (1/3-1/9)
 
 ## January 9th, Sunday (1 hour)
