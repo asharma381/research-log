@@ -55,7 +55,6 @@
   * Each week create 1-2 slides for what you have done that particular week
 
 Annotated ~20 more question-answer pairs in spreadsheet
-Created pie chart to represent the data
 
 **NLP Lab Reading Group Meeting** :calendar: :book:
 Professor William Wang presented Intro for Winter 2022 Quarter
@@ -99,6 +98,9 @@ Professor William Wang presented Intro for Winter 2022 Quarter
     * Most important part: `quality of the dataset`
   * ML Reading Comprehension + Passage Retrieval 1 month
   * About a week to write the paper
+* Showed pie chart to represent the data
+<img src="https://github.com/asharma381/research-log/blob/master/stage1-results.png">
+
 
 ### January 6th, Thursday (3 hours)
 * Meeting with Group
