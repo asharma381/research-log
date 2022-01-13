@@ -2,6 +2,36 @@
 ---
 
 ## Week 2 (1/10-1/16)
+
+### January 11th, Tuesday
+**HybridQA**: A Dataset of Multi-Hop QA over Tabular and Textual Data
+* Abstract: Propose HybridQA - large-scale question-answering dataset requires reasoning on heterogeneous information
+  * Question - Wikipedia table and free-form corpora
+  (tabular information + text information)
+  * Testing (Table-only model, text-only, hybrid)
+  * EM score of hybrid model over 40%
+  * Heterogeneous information in HybridQA serves as challenging benchmark
+* Introduction
+  * Crowdsourcing based on Wikipedia tables
+  * Process: Crowdworker gets a table
+  * "different strategies to calibrate the annotation process."? Which ones?
+    * the question requires multiple hops to achieve the answer, each reasoning hop may utilize either tabular or textual information
+    *  the answer may come from either the table or a passage.
+    * Model HYBRIDER
+    * 13K * 6 questions = 78, ends with 70K
+    * dev/test split
+
+
+**Group Meeting**
+* Launched MTurk Task (Pipeline for Question Drop)
+* Evaluate the results
+* Assign QA dataset papers to get better understanding of:
+  1. SOTA QA Dataset sizes
+  2. Dataset Collection Methods
+  3. Validation Techniques
+  4. Evaluation Metrics
+
+### January 10th, Monday
 #### **Weekly Goals**:
 * Demonstrate Question Drop (Launch M-Turk)
   - [ ] Finalize Q Drop  Process
@@ -15,7 +45,7 @@
 
 ## Week 1 (1/3-1/9)
 
-## January 9th, Sunday (1 hour)
+### January 9th, Sunday (1 hour)
 **Group Meeting**
   * Created schedule (daily stand-ups, weekly meeting, Thursday Review, planning meeting)
   * Goals: [Group Log To-Do Week 2](https://docs.google.com/document/d/1LcdXGe6vLvuyqFmYcSWpXD0GPnwAC19ObRCHeW-ITls/edit#heading=h.yb9nyo94cuhq)
@@ -60,7 +90,7 @@
   * Expensive to train and query
 * Performance of the models significantly improves with increasing number of retrieved passages
 
-## January 7th, Friday (3.5 hours) 
+### January 7th, Friday (3.5 hours) 
 **ERSP Meeting with Chinmay** :calendar:
   * ERSP Presentations will start from next week (push by one week due to scheduling)
   * Keep logs update-to-date for CS 196 (individual + group logs)
