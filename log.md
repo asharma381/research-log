@@ -3,6 +3,40 @@
 
 ## Week 2 (1/10-1/16)
 
+### January 12th, Wednesday
+* Read [NLQuad - Non-Factoid Long Question Answering Data Set](https://aclanthology.org/2021.eacl-main.106.pdf)
+
+**NLQuAD**: A Non-Factoid Long Question Answering Data Set
+Venue: Association for Computational Linguistics (ACL 
+Conference)
+* Size: 31K (13K BBC News Articles)
+* Non-factoid tasks requiring document-level language understanding
+* Not answerable by a short span of text and demanding multiple-sentence descriptive answers and opinions
+* Introduces: Intersection over Union (IoU), which measures position-sensitive overlap between the predicted and the target answer spans.
+* Ideas: human upper bound, leaving substantial room for improvements.
+  * Samples exceed the input limitation of most pre-trained Transformer-based models, encouraging future research on long sequence language models
+
+* Q&A Generation: extract questions and answers from the articles’ sub-headings and the following body paragraphs of the sub-headings
+  * non-factoid questions requiring complex answers like opinions and explanations.
+  * Shallow pattern matching (Google Natural Questions)
+
+Evaluation: ROUGE-N scores
+* Evaluate performance of BERT, RoBERTa, Longformer: TRAIN models to predict the span of the answer in a context document given a question and document
+
+1. Long-context vs short-context QA
+  * Its context documents are long, and its questions are non-factoid in a way that cannot be answered by single or multiple entities.
+  * Randomly partition the data set into training (80%), development (10%), and evaluation (10%) sets.
+
+* Figure Ideas: Distribution of trigram
+
+Human Evaluation:
+* Asked four volunteers to investigate 50 random samples from the evaluation set. They rated the goodness of answers on a 3-point scale: (1: Irrelevant answer; 2: Good answer after adding or removing some sentences; 3: Perfect answer)
+  * Average Score: 2.56
+  * Four volunteers to answer 50 questions, a randomly sampled subset of evaluation set. They were given unlimited time to detect the answers, but on average, it took them about 270 seconds to answer a question.
+  “Human-UB” vs “”Human-AVG”
+* Action Items: Check out AllenAI Long former code
+* Some non-factoid such as NLQuAD Long QA exist but they use answer span select (issue)
+
 ### January 11th, Tuesday
 **HybridQA**: A Dataset of Multi-Hop QA over Tabular and Textual Data
 * Abstract: Propose HybridQA - large-scale question-answering dataset requires reasoning on heterogeneous information
