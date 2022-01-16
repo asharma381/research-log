@@ -3,7 +3,20 @@
 
 ## Week 2 (1/10-1/16)
 
-### January 12th, Wednesday
+### January 13th, Thursday (3 hours)
+* Based on Reading HybridQA (Contact Wenhu Chen)
+  * Asked for some suggestion on QA validation (awaiting his response)
+  * Discussed about approaches for validation from Non-factoid QA dataset (https://aclanthology.org/2021.eacl-main.106.pdf)
+
+* Grammar Correction using Hugging Face’s Grammar Correction Framework
+  * Goal - see if the grammar would improve in the questions.
+  * Results: `s1_c2_grammar.csv`
+  (https://docs.google.com/spreadsheets/d/1H1H8NMvArcN-VAQZYh9Y164UP5KguqhTJm1I3CtP1FI/edit#gid=1024639190)
+    * 8 Minor Errors (Light Green) Found = Punctuation Errors (Capital Letters, Question Marks, Spaces)
+    * 14 Major Grammatical Errors (Dark Green) Found = (tense, spelling, rephrase)
+* Findings: Grammar Correction may be a good validation task perform to ensure questions are phrased correctly.
+
+### January 12th, Wednesday (3 hours)
 * Read [NLQuad - Non-Factoid Long Question Answering Data Set](https://aclanthology.org/2021.eacl-main.106.pdf)
 
 **NLQuAD**: A Non-Factoid Long Question Answering Data Set
@@ -37,7 +50,7 @@ Human Evaluation:
 * Action Items: Check out AllenAI Long former code
 * Some non-factoid such as NLQuAD Long QA exist but they use answer span select (issue)
 
-### January 11th, Tuesday
+### January 11th, Tuesday (2 hours)
 **HybridQA**: A Dataset of Multi-Hop QA over Tabular and Textual Data
 * Abstract: Propose HybridQA - large-scale question-answering dataset requires reasoning on heterogeneous information
   * Question - Wikipedia table and free-form corpora
@@ -65,7 +78,7 @@ Human Evaluation:
   3. Validation Techniques
   4. Evaluation Metrics
 
-### January 10th, Monday
+### January 10th, Monday (1 hour)
 #### **Weekly Goals**:
 * Demonstrate Question Drop (Launch M-Turk)
   - [ ] Finalize Q Drop  Process
