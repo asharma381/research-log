@@ -3,6 +3,30 @@
 
 ## Week 2 (1/10-1/16)
 
+### January 14th, Friday (3 hours)
+
+**ERSP NLP Meeting Notes**
+Dataset collection
+* Launched first validation step worker receives 12 QA pairs and are asked to select yes/no for (1) does the question make sense? (2) is the answer satisfying?
+  * 2 of the QA pairs are known negative examples (created by mixing Q’s and A’s from other batches)
+  * continuing to work on processing the data
+  * early insights: only ~60% of responses answered both known examples correctly
+  * working on automatically rejecting responses that fail the known examples and adding known positive examples for more varied performance check
+  * using t5 model to correct grammar on questions
+
+Benchmarks: DPR
+* Running inference crashes (not enough memory). 
+* Try using Pyserini implemntation of DPR - academia-oriented, easier to use
+
+Benchmarks: FiD
+* FiD takes .json as input: a list of QA entries where each entry has a context passage list
+* Pyserini then Apache Lucene
+
+Questions
+* Generative Models an issue
+
+
+
 ### January 13th, Thursday (3 hours)
 * Based on Reading HybridQA (Contact Wenhu Chen)
   * Asked for some suggestion on QA validation (awaiting his response)
