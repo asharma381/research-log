@@ -22,8 +22,10 @@ Benchmarks: FiD
 * FiD takes .json as input: a list of QA entries where each entry has a context passage list
 * Pyserini then Apache Lucene
 
-Questions
-* Generative Models an issue
+Questions for Professor William Wang
+* Is using Generative Models an issue?
+* Before launching final dataset batch: Should we collect more sample runs?
+* How many more batches should we run at different price points for validation MTurks?
 
 
 
