@@ -1,6 +1,29 @@
 # Aditya's Research Log :notebook: (Winter 2022)
 ---
 
+## Week 3 (11/17-11/23)
+
+### January 18th, Tuesday (2 hours)
+ERSP Group Meeting 
+* Discussed about plans for this week
+* Assigned individual subtasks and assignments
+* Accomplishments: Launched MTurk assignment (100 freeform questions)
+
+### January 17th, Monday (2 hours)
+* MLK Holiday No School
+* Group Meeting for ERSP Presentation Practice
+  * Discussed slide orderings, made changes to the slides
+  * Rehearsed and timed the presentations
+  * 15 mins total for the group
+  * Added current progress (images of our work)
+  * Divided up slides
+* Meeting with Chinmay
+  * Discussed Week 2 Accomplishments
+  * Discussed Week 3 Goals
+  * Tasks each one of us are doing
+  * Presentation Info for Thursday
+
+
 ## Week 2 (1/10-1/16)
 
 ### January 14th, Friday (3 hours)
