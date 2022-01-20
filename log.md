@@ -3,6 +3,10 @@
 
 ## Week 3 (11/17-11/23)
 
+## January 19th, Wednesday (1 hour)
+* Meet with Group 
+  * Reviewed MTurk Assignment
+
 ### January 18th, Tuesday (2 hours)
 ERSP Group Meeting 
 * Discussed about plans for this week
