@@ -3,9 +3,39 @@
 
 ## Week 3 (11/17-11/23)
 
+## January 21st, Friday (2 hours)
+**Research Meeting**
+* MTurk Survey Fix
+  * Put note on the MTurk survey: If you FAIL any of them you will be automatically rejected. There are some trap answers, wel will reject the hits. If you submit some number that are rejected, we will ban your id from future tasks.
+  * Prof William Advice Insert Trap Question - good strategy
+  * Prof Advice: 50% rejection rate - red flag
+    * Reject Rate should be < 10% (otherwise this is bad)
+
+* READ ACL Rolling Review Checklist (inform that we are building a QA dataset)
+  * Website Link: [https://aclrollingreview.org/responsibleNLPresearch/](https://aclrollingreview.org/responsibleNLPresearch/)
+  * ACL Responsible NLP Research [Checklist](https://aclrollingreview.org/Responsible_NLP_Research_Checklist___Fillable_form.pdf)
+  * Perform sanity checks, if we know the ground truth answers you must be able to answer those validation questions to continue in this task.
+* General Advice: Distinguish these by looking more closely. Ideally, change 1 thing at a time, may want to talk about the different strategies we used when experimenting
+
+* Grammar Correction Algorithms: Do a tree search, Spell Check is better, punctuation/space errors are good (regex may be a better approach)
+* NQ Human Upperbound may not be 90%. Look specifically within the dataset (do sanity check, examples shown it’s not able to give reasonable results, generally good news)
+* Not fine-tuned or trained CausalQA. Gather 1000 Examples, then Fine-tune with CausalQA dataset. Look at the performance then. This may have the potential to be interesting. Results not good is a good thing! Compare the performance of the two.
+
+
+
+## January 20th, Thursday (2 hour)
+* ERSP Proposal Presentation
+  * Presentation [Speaker Notes](https://docs.google.com/document/d/1Hq-51SVUn1b_e6QYk__Zv806jaIgaAz7Kzgh-VKRt2c/edit?usp=sharing)
+  * Presentation to ERSP students and Prof Mirza
+  * Discussion with Professor about individual progress, shortcomings, courses, commitment
+* Received Response from Dr. Wenhu Chen about suggestions for our QA Dataset based on his experience in HybridQA
+* Group Meeting and Code Session with Matthew on NLP Server for FiD and DPR from Wikipedia Corpus
+
 ## January 19th, Wednesday (1 hour)
 * Meet with Group 
-  * Reviewed MTurk Assignment
+  * Reviewed MTurk Assignment Results
+  * Discussion about dataset processing
+  * DPR and FiD discussed
 
 ### January 18th, Tuesday (2 hours)
 ERSP Group Meeting 
